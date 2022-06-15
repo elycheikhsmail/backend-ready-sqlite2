@@ -1,0 +1,12 @@
+debeuger permet de comprendre le comportement d'un script
+en suivant la valeur prise par chaque variable au mement de l'execution.
+donc similaire au test auto mais plus proche du code a inspecter
+donc si l'on lance debeguer on n'a pas besoin de lancer des tests 
+le serveur attend l'arrive d'une request pour agir
+on creer un fichier file_x_request.ts on on utilise fetch api pour faire reagir
+le script a debeuger.
+
+conclusion :
+suivre les valeur des variable pendant l'execution.cette suivi permet:
+- de comprendre le comportement reel de votre code.
+- de corriger des erreurs

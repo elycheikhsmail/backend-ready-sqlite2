@@ -1,0 +1,26 @@
+test driven dev 
+ 
+
+g_protected_url.ts
+api/private
+g_protected_url.ts
+g_protected_url.test.ts
+
+finaliser protected url  
+check token date exp
+
+create superuser by default admin, admin +test
+p_logout.ts
+delete saved token or make it inactive
+
+crud les objects
+
+dernier etape est hasher le password et token
+protected aignest sql injection in production
+ 
+use all module as possible from import_map to be more easy to update
+
+go to eboutique
+
+
+deno std log ? erreurs en production

@@ -1,0 +1,24 @@
+{
+  "importMap": "./import_map.json",
+  "tasks": {
+    "start": "deno run --allow-all --watch server.ts",
+    "ui": "deno run --allow-all  server_dev_ui.ts",
+    "open_in_browser": "deno run --allow-run  open_in_browser.ts",
+
+    "removesqlitedb": "deno run --allow-all   --allow-write cli/remove_sqlite_file.ts",
+
+    "gettoken": "deno run --allow-all cli/localdb.ts",
+
+    "createtables": "deno run --allow-all cli/create_tables.ts",
+
+    "protecturl1": "deno test --allow-net --location http://localhost:3000  pagesCtrl/api/private/g_protected_url_case1.test.ts",
+
+    "protecturl2": "deno test --allow-all --location http://localhost:3000  pagesCtrl/api/private/g_protected_url_case2.test.ts",
+
+
+    "protecturl3": "deno test --allow-net --location http://localhost:3000  pagesCtrl/api/private/g_protected_url_case3.test.ts",
+
+    "register": "deno test --allow-net --location http://localhost:3000  pagesCtrl/api/users/p_register.test.ts",
+    "login": "deno test --allow-all --location http://localhost:3000  pagesCtrl/api/users/p_login.test.ts"
+  }
+}

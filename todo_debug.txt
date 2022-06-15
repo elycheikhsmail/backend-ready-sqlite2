@@ -1,0 +1,3 @@
+suivre le doc debeug dans le manuel de deno
+executer le tel quel 
+puis essayer de l'adapter avec mon proj

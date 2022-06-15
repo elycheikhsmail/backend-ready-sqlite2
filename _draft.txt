@@ -1,0 +1,10 @@
+
+deno task removesqlitedb
+deno task createtables
+deno task protecturl1
+deno task protecturl3
+deno task register
+deno task login 
+deno task protecturl2
+
+ 
